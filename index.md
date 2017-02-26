@@ -1,11 +1,12 @@
 ---
 layout: post
 title: Machine Learning for humans
+theme: jekyll-theme-architect
 ---
 
 #Machine Learning for humans
 
-Over the course of a few months, I've been researching the concepts and principles of machine learning. I've been researching neurons, backpropagation, classification, cross entropy, all of it. To a lot of people, including me a few months ago, all of this seems daunting, and insanely complex. 
+Over the course of a few months, I've been researching the concepts and principles of machine learning. I've been researching neurons, backpropagation, classification, cross entropy, all of it. To a lot of people, including me a few months ago, all of this seems daunting, and insanely complex.
 
 Why is it so complicated?
 
@@ -22,4 +23,3 @@ I could look up from my laptop and sneer and say "Oh, I'm training a *classifica
 You might think that's some fancy shit.
 
 But in reality, that sentence, minus the prentious terminology is "Oh, I'm teaching a program to take two lists of input, sort it, and guess what kind of thing it is. If it's wrong, it figures out where it went wrong, and tries again"
-
