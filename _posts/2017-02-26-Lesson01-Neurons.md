@@ -1,7 +1,7 @@
 # Lesson 01 - Neurons
 ## AKA - "What the frickity frackity hickity heckity is a neuron?"
 
-[A machine learning researcher in the wild](http://i.imgur.com/HjwsRbM.png)
+![A machine learning researcher in the wild](http://i.imgur.com/HjwsRbM.png)
 
 ## It's easier than you think
 
