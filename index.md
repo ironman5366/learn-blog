@@ -1,11 +1,11 @@
 
-#Machine Learning for humans<
+# Machine Learning for humans
 
 Over the course of a few months, I've been researching the concepts and principles of machine learning. I've been researching neurons, backpropagation, classification, cross entropy, all of it. To a lot of people, including me a few months ago, all of this seems daunting, and insanely complex.
 
-###Why is it so complicated?
+### Why is it so complicated?
 
-##Machine learning researchers are massively pretentious##
+## Machine learning researchers are massively pretentious##
 
 ^^ Yup. Machine learning is just another kind of programming. Albeit a cool one, but there's no rational reason to treat it as some mystical beast that only the chosen ones can tame.
 
@@ -18,3 +18,5 @@ I could look up from my laptop and sneer and say "Oh, I'm training a *classifica
 You might think that's some fancy shit.
 
 But in reality, that sentence, minus the pretentious terminology is "Oh, I'm teaching a program to take two lists of input, sort it, and guess what kind of thing it is. If it's wrong, it figures out where it went wrong, and tries again"
+
+And, in reality, thanks to how much machine learning has advanced, I'm probably doing this in about 20 lines of code
