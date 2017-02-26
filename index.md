@@ -1,7 +1,7 @@
-----------------------------------
+---
 layout: post
 title: Machine Learning for humans
------------------------------------
+---
 
 #Machine Learning for humans
 
