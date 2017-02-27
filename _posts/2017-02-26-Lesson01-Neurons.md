@@ -24,7 +24,7 @@ Can easily become:
 
 Now let's look at the dimensions of the neuron.
 
-One of my biggest gripes with beginner level machine learning tutorials is how they usually don't explain what they mean by phrases like `784 dimensional vector space` (I'm looking at you, tensorflow MNIST tutorial). A lot of the time, it's actually fairly simple. Let's take our comic from the beginning of the post as an example. 
+One of my biggest gripes with beginner level machine learning tutorials is how they usually don't explain what they mean by phrases like `784 dimensional vector space` (I'm looking at you, [tensorflow "beginner" tutorial](https://www.tensorflow.org/get_started/mnist/beginners). A lot of the time, it's actually fairly simple. Let's take our comic from the beginning of the post as an example. 
 
 In the first panel, our protagonist (Dubbed L'earneast by the artist, J. Hoff), describes his `3 dimensional input neuron vector`. 
 
