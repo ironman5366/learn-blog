@@ -30,7 +30,9 @@ It's no longer an academic niche, it's a common branch of modern programming. No
 
 Interested? Check out our first decoded tutorial: [Neurons]({{ site.baseurl }}{% link _posts/2017-02-26-Lesson01-Neurons.md %})
 
-##Posts:
+## Posts:
 {% for post in site.posts %}	
-    [post.title]({{ site.baseurl }}{% link _posts/2017-02-26-Lesson01-Neurons.md %})
+
+    - [post.title]({{ site.baseurl }}{% link post.url %})
+    
 {% endfor %}	
