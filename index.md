@@ -1,4 +1,3 @@
-
 # Machine Learning for humans
 
 Over the course of a few months, I've been researching the concepts and principles of machine learning. I've been researching neurons, backpropagation, classification, cross entropy, all of it. To a lot of people, including me a few months ago, all of this seems daunting, and insanely complex.
