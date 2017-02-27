@@ -33,6 +33,6 @@ Interested? Check out our first decoded tutorial: [Neurons]({{ site.baseurl }}{%
 ## Posts:
 {% for post in site.posts %}	
 
-    - [{{ post.title }}]({{ site.baseurl }}{% link {{ post.url }} %})
+    - {{ post.title }}
     
 {% endfor %}	
