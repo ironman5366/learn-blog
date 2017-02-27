@@ -6,6 +6,23 @@ layout: default
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
   <div class="post-content" itemprop="articleBody">
+    <div>
+      <span>By </span>
+      {% assign authorCount = page.authors | size %}
+      {% if authorCount == 0 %}
+          {% include add_name.html name='default' %}
+      {% else %}
+          {% for name in page.authors %}
+              {% if forloop.first %}
+                  {% include add_name.html name=name %}
+              {% elsif forloop.last %}
+                  and {% include add_name.html name=name %}
+              {% else %}
+                  , {% include add_name.html name=name %}
+              {% endif %}
+          {% endfor %}
+      {% endif %}
+    </div>
     {{ content }}
   </div>
 
