@@ -36,7 +36,7 @@ Remove the word neuron and it's just a 3 dimensional input vector, which looks l
   [3]
 ]
 ```
-So now we have a vector with a shape of (3, 1). And since we just have one value for each "dimension" of the array, we can just flatten it into a stanard list.
+So now we have a vector with a shape of (3, 1). And since we just have one value for each "dimension" of the array, we can just flatten it into a standard list.
 
 ```python
 [1,2,3]
