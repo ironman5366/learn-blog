@@ -1,0 +1,20 @@
+default:
+  name: Learn Blog Staff
+  gravatar: '00000000000000000000000000000000'
+  web: https://ironman5366.github.io/learn-blog
+beddow:
+  name: Will Beddow
+  display_name: Will
+  gravatar: b45f0b6885bef80856ded628de522b19 
+  email: will.beddow@gmail.com
+  web: http://willbeddow.com
+  gravatar: default.gravatar
+  github: ironman5366
+hoffer:
+  name: John Hoffer
+  display_name: John
+  email: john@hoff.in
+  gravatar: b59fffe27485b55695887a7cc35c400f
+  web: http://via.hoff.in
+  twitter: thejohnhoffer
+  github: thejohnhoffer

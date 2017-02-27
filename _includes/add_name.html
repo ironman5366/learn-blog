@@ -1,0 +1,10 @@
+{% assign author = site.data._authors['default'] %}
+{% if site.data._authors contains include.name %}
+    {% assign author = site.data._authors[include.name] %}
+{% endif %}
+{% assign g_root = 'https://www.gravatar.com/avatar/' %}
+{% assign gravatar = g_root | append: author.gravatar %}
+<a href="{{ author.web }}" target="_blank">
+  <img src= "{{ gravatar }}" height=32 width=32></img>
+  {{ author.name }}
+</a>

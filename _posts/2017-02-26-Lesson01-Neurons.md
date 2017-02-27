@@ -1,3 +1,8 @@
+---
+authors:
+   - hoffer
+   - beddow
+---
 # Lesson 01 - Neurons
 ## AKA - "What the frickity frackity hickity heckity is a neuron?"
 
