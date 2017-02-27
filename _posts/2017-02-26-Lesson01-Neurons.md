@@ -1,3 +1,9 @@
+$$
+2+2
+$$
+
+The network turns $$[i_0,i_1,\cdots,i_n]$$ into $$[o_0,o_1,\cdots,o_n]$$!
+
 # Lesson 01 - Neurons
 ## AKA - "What the frickity frackity hickity heckity is a neuron?"
 
