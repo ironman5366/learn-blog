@@ -29,3 +29,8 @@ Thanks to things like Tensorflow, and subsequently Keras (Which we'll be using i
 It's no longer an academic niche, it's a common branch of modern programming. Not only that, it's something that you can teach yourself how to do, with only a standard background in python.
 
 Interested? Check out our first decoded tutorial: [Neurons]({{ site.baseurl }}{% link _posts/2017-02-26-Lesson01-Neurons.md %})
+
+##Posts:
+{% for post in site.posts %}	
+    [post.title]({{ site.baseurl }}{% link _posts/2017-02-26-Lesson01-Neurons.md %})
+{% endfor %}	
