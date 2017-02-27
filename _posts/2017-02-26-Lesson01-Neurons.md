@@ -1,7 +1,7 @@
 # Lesson 01 - Neurons
 ## AKA - "What the frickity frackity hickity heckity is a neuron?"
 
-![A machine learning researcher in the wild](http://img.hoff.in/learnest/svg/learnest0.svg)
+![Earnest says "Yeah, my Neural Network uses a 3 dimensional input neuron vector, so what-". There is a list on a screen showing numbers 1,2, and 3. Ann asks Earnest "You mean that?"](http://img.hoff.in/learnest/svg/learnest0.svg)
 
 ## It's easier than you think
 
