@@ -1,5 +1,5 @@
-theme: jekyll-theme-architect
+theme: jekyll-theme-modernist
 markdown: kramdown
-
+baseurl: /
 kramdown:
      input: GFM
