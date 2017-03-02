@@ -237,4 +237,4 @@ while True:
 	print (answer)
 ```
 
-As mentioned earlier, it, as well as our requirements.txt and all our examples, are available at https://github.com/ironman5366/learn-blog/examples
+As mentioned earlier, it, as well as our requirements.txt and all our examples, are available [in the examples folder.](https://github.com/ironman5366/learn-blog/tree/master/examples)
