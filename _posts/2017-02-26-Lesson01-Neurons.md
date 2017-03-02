@@ -6,8 +6,7 @@ authors:
 # Lesson 01 - Neurons
 ## AKA - "What the frickity frackity hickity heckity is a neuron?"
 
-![Earnest says "Yeah, my Neural Network uses a 3 dimensional input neuron vector, so what-". There is a list on a screen showing numbers 1,2, and 3. Ann asks Earnest "You mean that?"](http://img.hoff.in/learnest/png/learnest0.png)
-
+[![Earnest says "Yeah, my Neural Network uses a 3 dimensional input neuron vector, so what-". There is a list on a screen showing numbers 1,2, and 3. Ann asks Earnest "You mean that?"][comic0]][comic0]
 $$
 \textrm{Ann shows L'earnest that his} \\
 \textrm{ neurons aren't so impressive.}
@@ -36,8 +35,7 @@ And why shouldn't they? It's a great word. It brings to mind discoveries in neur
 [1]: #neural-networks-dont-need-vectors
 ## Neural networks don't need vectors
 
-![Line says "Hi- I'm a line, i.e. a 1-dimensional vector-space!" The line goes from Ok at 0 to Spooky at 4. Line asks self "..but which memes are the freshest?" after seeing Salt Bae and Badger are both Ok at 0 and Skeleton is Spooky at 4. The line becomes a square, and line says "I'm now a square, i.e. a 2-dimensional vector-space". Salt Bae is Ok and Fresh at 0,17. Badger is Ok and Stale at 0,3. Skeleton is Spooky and somewhat fresh as 4,12.](http://img.hoff.in/learnest/png/dimensions.png)
-
+[![Line says "Hi- I'm a line, i.e. a 1-dimensional vector-space!" The line goes from Ok at 0 to Spooky at 4. Line asks self "..but which memes are the freshest?" after seeing Salt Bae and Badger are both Ok at 0 and Skeleton is Spooky at 4. The line becomes a square, and line says "I'm now a square, i.e. a 2-dimensional vector-space". Salt Bae is Ok and Fresh at 0,17. Badger is Ok and Stale at 0,3. Skeleton is Spooky and somewhat fresh as 4,12.][comic1]][comic1]
 $$
 \textrm{A line can measure spookiness,} \\
 \textrm{ but one must master the square} \\
@@ -81,6 +79,8 @@ To know anything about _freshness_, one item in your _input list_ must be a numb
 - In _spooky-fresh_ space, our inputs are `[0,3]` for ![cute][cute] and `[0,17]` for ![salt][salt],
 	-  so an artificial neural network can learn that that ![salt][salt] is _much fresher_ than ![cute][cute].
 
+[comic0]: http://img.hoff.in/learnest/png/learnest0.png
+[comic1]: http://img.hoff.in/learnest/png/dimensions.png
 [spooky]: http://img.hoff.in/learnest/icons/0_spooky0.png
 [salt]: http://img.hoff.in/learnest/icons/0_ok1.png
 [cute]: http://img.hoff.in/learnest/icons/0_ok0.png
