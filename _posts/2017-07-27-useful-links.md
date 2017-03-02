@@ -1,0 +1,4 @@
+- [Keras](https://keras.io)
+  - [List of optimizers](https://keras.io/optimizers/)
+  - [List of activations](https://keras.io/activations/#available-activations)
+- [spaCy](https://spacy.io)  
