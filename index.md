@@ -30,5 +30,5 @@ It's no longer an academic niche, it's a common branch of modern programming. No
 
 Interested? Check out our first decoded tutorial: [Neurons][post0]
 
-[post0]: 2017/02/26/Lesson01/Neurons.html
+[post0]: 2017/02/26/Lesson01-Neurons.html
 
