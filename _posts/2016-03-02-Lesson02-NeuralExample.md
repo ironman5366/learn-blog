@@ -16,7 +16,7 @@ Let me explain a bit further.
 When searching for an example of beginner-level code, I'm looking for three things.
 
 - Easy to Install
-  - A lot of popular libraries are really hard to install get all the dependencies for. And this isn't help by a write-once approach to installing (e.g. tensorflow binaries only are compatible with up to python 3.5). We feel your pain here. That's why we're providing a simple requirements.txt that should work to install.
+  - A lot of popular libraries are really hard to install. And this isn't help by a write-once approach to installing (e.g. tensorflow binaries only are compatible with up to python 3.5). We feel your pain here. That's why we're providing a simple requirements.txt that should work to install.
 
 - Code that's simple to run, and easy to understand
   - Examples that use things like MNIST are great in theory, but they can be hard to re-use for other applications. They also require downloading, and are kind of advanced for an introduction. That's why we'll just teach it how to add, using data we generate **inside** the code
@@ -28,11 +28,9 @@ When searching for an example of beginner-level code, I'm looking for three thin
 
 As stated above, our installation is handled by an updated `requirements.txt`, using Python 3.6
 
-To install:
-
-`git clone https://github.com/ironman5366/learn-blog`
-
+To install the dependencies:
 ```
+git clone https://github.com/ironman5366/learn-blog
 cd learn-blog/examples
 pip install -r requirements.txt
 ```
