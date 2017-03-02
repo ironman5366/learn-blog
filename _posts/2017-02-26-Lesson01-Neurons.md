@@ -6,7 +6,7 @@ authors:
 # Lesson 01 - Neurons
 ## AKA - "What the frickity frackity hickity heckity is a neuron?"
 
-![Earnest says "Yeah, my Neural Network uses a 3 dimensional input neuron vector, so what-". There is a list on a screen showing numbers 1,2, and 3. Ann asks Earnest "You mean that?"](http://img.hoff.in/learnest/svg/learnest0.svg)
+![Earnest says "Yeah, my Neural Network uses a 3 dimensional input neuron vector, so what-". There is a list on a screen showing numbers 1,2, and 3. Ann asks Earnest "You mean that?"](http://img.hoff.in/learnest/png/learnest0.png)
 
 $$
 \textrm{Ann shows L'earnest that his} \\
@@ -36,7 +36,7 @@ And why shouldn't they? It's a great word. It brings to mind discoveries in neur
 [1]: #neural-networks-dont-need-vectors
 ## Neural networks don't need vectors
 
-![Line says "Hi- I'm a line, i.e. a 1-dimensional vector-space!" The line goes from Ok at 0 to Spooky at 4. Line asks self "..but which memes are the freshest?" after seeing Salt Bae and Badger are both Ok at 0 and Skeleton is Spooky at 4. The line becomes a square, and line says "I'm now a square, i.e. a 2-dimensional vector-space". Salt Bae is Ok and Fresh at 0,17. Badger is Ok and Stale at 0,3. Skeleton is Spooky and somewhat fresh as 4,12.](http://img.hoff.in/learnest/svg/dimensions.svg)
+![Line says "Hi- I'm a line, i.e. a 1-dimensional vector-space!" The line goes from Ok at 0 to Spooky at 4. Line asks self "..but which memes are the freshest?" after seeing Salt Bae and Badger are both Ok at 0 and Skeleton is Spooky at 4. The line becomes a square, and line says "I'm now a square, i.e. a 2-dimensional vector-space". Salt Bae is Ok and Fresh at 0,17. Badger is Ok and Stale at 0,3. Skeleton is Spooky and somewhat fresh as 4,12.](http://img.hoff.in/learnest/png/dimensions.png)
 
 $$
 \textrm{A line can measure spookiness,} \\
