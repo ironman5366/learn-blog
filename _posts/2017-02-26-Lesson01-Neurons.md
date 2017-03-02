@@ -64,7 +64,7 @@ A `vector` is a `list` _of directions in a space_.
 
 __Examples from [the spooky-fresh comic][1]:__
 - A spooky line _(1-dimensional spooky space)_:
-	- But the ![spooky][spooky] `vector [4]` goes to __four__ steps of _spookiness_.
+	- The ![spooky][spooky] `vector [4]` goes to __four__ steps of _spookiness_.
 	- Both ![cute][cute] and ![salt][salt] `vectors [0]` stay at __zero__ _spookiness_. 
 - A spooky-fresh square _(2-dimensional spooky-fresh space)_:
 	- The ![spooky][spooky] `vector [4, 12]` goes `4` and `12` steps from `[0,0]`: 
