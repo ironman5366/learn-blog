@@ -1,5 +1,5 @@
 theme: jekyll-theme-modernist
-baseurl: "/learn-blog"
 markdown: kramdown
+baseurl: /
 kramdown:
      input: GFM
