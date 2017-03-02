@@ -34,9 +34,9 @@ git clone https://github.com/ironman5366/learn-blog
 cd learn-blog/examples
 pip install -r requirements.txt
 ```
-Our requirements.txt is available [In the examples folder of the repository]("https://github.com/ironman5366/learn-blog/examples/requirements.txt")
+Our requirements.txt is available [In the examples folder of the repository](https://github.com/ironman5366/learn-blog/blob/master/examples/requirements.txt)
 
-That `examples` folder also contains all the example networks that we write, including the one we're writing here, which will be in `examples/add_network.py`. If you're impatient, you can see the full code [here.](https://github.com/ironman5366/learn-blog/examples/add_network.py)
+That `examples` folder also contains all the example networks that we write, including the one we're writing here, which will be in `examples/add_network.py`. If you're impatient, you can see the full code [here.](https://github.com/ironman5366/learn-blog/blob/master/examples/add_network.py)
 
 ## The code
 
