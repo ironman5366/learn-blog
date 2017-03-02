@@ -97,10 +97,10 @@ input = [1,2,3]
 ```
 If this is a `spooky-fresh-spicy` cube, the above input list could mean `spookiness=1`, `freshness=2`, and `spiciness=3`. 
 
-Or, since the ![spooky][spooky] meme has `spookiness=4`, `freshness=2`, and `spiciness=0`,
+Or, since the ![spooky][spooky] meme has `spookiness=4`, `freshness=12`, and `spiciness=0`,
 
 ```
-input = [4,2,0]
+input = [4,12,0]
 ```
 
 There is no need to use a word like `dimensional` to talk about the inputs you feed into your neural network. 
