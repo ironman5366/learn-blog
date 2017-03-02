@@ -48,7 +48,7 @@ Now let's look at the _dimensions_ of the inputs.
 
 In many entry-level machine learning tutorials, they usually don't explain what they mean by a  `N-dimensional vector space` (I'm looking at you, [tensorflow "beginner" tutorial](https://www.tensorflow.org/get_started/mnist/beginners)). It's simple. 
 
-As in the spooky-fresh comic above, think of a `vector space` as a shape. An `N-dimensional` vector space is just a __line__ for `N=1`, a __square__ for `N=2`, a _cube_ for `N=3`, or a _hypecube_ for `N>3`. It's best never to speak of _hypecubes_. Let's focus on __lines__ and __squares__.
+As in the spooky-fresh comic above, think of a `vector space` as a shape. An `N-dimensional` vector space is just a __line__ for `N=1`, a __square__ for `N=2`, a _cube_ for `N=3`, or a _hypercube_ for `N>3`. It's best never to speak of _hypercubes_. Let's focus on __lines__ and __squares__.
 
 [1.0]: #vectors-explained-with-memes
 ### Vectors explained with memes
