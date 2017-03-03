@@ -1,4 +1,4 @@
-theme: jekyll-theme-architect
+theme: jekyll-theme-modernist
 baseurl: "/learn-blog"
 markdown: kramdown
 kramdown:
