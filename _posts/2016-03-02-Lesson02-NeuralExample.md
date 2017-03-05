@@ -139,7 +139,7 @@ Now, let's train the model. The first two arguments are just the input data and 
 
 Next, we'll set the `validation_split`. The validation split is the portion of your data that should **just** be tested on, not trained. This makes sure that there's not any erroneous relations that will only work for your training data.
 
-Finally, we set `nb_epoch`. This is just the number of cycles to run it for. For this, 10 should probably be fine.
+Finally, we set `nb_epoch`. This is just the number of cycles to run it for. For this, 5 should probably be fine.
 
 ```python
 #Split the data to validate the results
