@@ -4,7 +4,6 @@ authors:
     - hoffer
 ---
 # Lesson 01 - Neurons
-## AKA - "What the frickity frackity hickity heckity is a neuron?"
 
 [![Earnest says "Yeah, my Neural Network uses a 3 dimensional input neuron vector, so what-". There is a list on a screen showing numbers 1,2, and 3. Ann asks Earnest "You mean that?"][comic0]][comic0]
 
@@ -62,22 +61,20 @@ A `vector` is a `list` _of directions in a space_.
 		- four steps along the first edge.
 		- twelve steps along the second edge.
 
+
 __Examples from [the spooky-fresh comic][1]:__
-- A spooky line _(1-dimensional spooky space)_:
-	- The ![spooky][spooky] `vector [4]` goes to __four__ steps of _spookiness_.
-	- Both ![cute][cute] and ![salt][salt] `vectors [0]` stay at __zero__ _spookiness_. 
-- A spooky-fresh square _(2-dimensional spooky-fresh space)_:
-	- The ![spooky][spooky] `vector [4, 12]` goes `4` and `12` steps from `[0,0]`: 
-		-  it goes to a _very spooky_ __four__ steps of _spookiness_.
-		-  it goes to a _somewhat fresh_ __twelve__ steps of _freshness_.
-	- While ![cute][cute] and ![salt][salt] still stay at __zero__  _spookiness_,
-		- ![cute][cute] `vector [0,3]`  _(from 2003)_ only goes to __three__ steps of  _freshness_.
-		- ![salt][salt] `vector [0,17]` _(from 2017)_ goes to __seventeen__ steps of _freshness_.
+
+| Icon | spookiness | freshness | [spooky] | [spooky, fresh] |
+| ---- | ---------- | --------- | -------- | --------------- |
+| ![spooky][spooky] | 4 | 12 | `[4]` | `[4,12]` |
+| ![cute][cute] | 0 | 3 | `[0]` | `[0,3]` |
+| ![salt][salt] | 0 | 17 | `[0]` | `[0,17]` |
+
 
 __Which memes are the freshest:__
 
-To know anything about _freshness_, one item in your _input list_ must be a number for freshness. It's not needed to think of an `input vector` as offsetting an input in a space, but that's where the language of _vectors_ and _dimensions_ originates. __In general__, you need to list one item in the __input list__ for each feature like _spookiness_, _freshness_, or even _spiciness_.
-- Notice that there is no difference between ![cute][cute] and ![salt][salt] if your inputs only list steps towards _spookiness_. Neither of those memes is spooky at all! 
+To know anything about _freshness_, one item in your _input list_ must be a number for freshness. It's not needed to think of an `input vector` as offsetting an input in a space, but that's where the language of _vectors_ and _dimensions_ originates. __In general__, you need to list one item _(dimension)_ in the __input list__ for each feature like _spookiness_, _freshness_, or even _spiciness_.
+- Notice that there is no difference between ![cute][cute] and ![salt][salt] if your inputs only list _spookiness_. Neither of those memes is spooky at all! 
 - In _spooky-fresh_ space, our inputs are `[0,3]` for ![cute][cute] and `[0,17]` for ![salt][salt],
 	-  so an artificial neural network can learn that that ![salt][salt] is _much fresher_ than ![cute][cute].
 
