@@ -4,7 +4,6 @@ authors:
     - hoffer
 ---
 # Lesson 01 - Neurons
-## AKA - "What the frickity frackity hickity heckity is a neuron?"
 
 [![Earnest says "Yeah, my Neural Network uses a 3 dimensional input neuron vector, so what-". There is a list on a screen showing numbers 1,2, and 3. Ann asks Earnest "You mean that?"][comic0]][comic0]
 
@@ -46,14 +45,14 @@ $$
 
 Now let's look at the _dimensions_ of the inputs.
 
-In many entry-level machine learning tutorials, they usually don't explain what they mean by a  `N-dimensional vector space` (I'm looking at you, [tensorflow "beginner" tutorial](https://www.tensorflow.org/get_started/mnist/beginners)). It's simple. 
+In many entry-level machine learning tutorials, they usually don't explain what they mean by a  `N-dimensional vector space` (Looking at you, [tensorflow "beginner" tutorial](https://www.tensorflow.org/get_started/mnist/beginners)). It's simple. 
 
 As in the spooky-fresh comic above, think of a `vector space` as a shape. An `N-dimensional` vector space is just a __line__ for `N=1`, a __square__ for `N=2`, a _cube_ for `N=3`, or a _hypercube_ for `N>3`. It's best never to speak of _hypercubes_. Let's focus on __lines__ and __squares__.
 
 [1.0]: #vectors-explained-with-memes
 ### Vectors explained with memes
 
-A `vector` is a `list` _of directions in a space_.
+A _vector_ is a _list of directions in a space_.
 - In the case of a __line__ _(1-dimensional space)_
 	- A `vector` like `[4]` is offset from `[0]` by:
 		- four steps along the line from zero.
@@ -62,24 +61,30 @@ A `vector` is a `list` _of directions in a space_.
 		- four steps along the first edge.
 		- twelve steps along the second edge.
 
-__Examples from [the spooky-fresh comic][1]:__
-- A spooky line _(1-dimensional spooky space)_:
-	- The ![spooky][spooky] `vector [4]` goes to __four__ steps of _spookiness_.
-	- Both ![cute][cute] and ![salt][salt] `vectors [0]` stay at __zero__ _spookiness_. 
-- A spooky-fresh square _(2-dimensional spooky-fresh space)_:
-	- The ![spooky][spooky] `vector [4, 12]` goes `4` and `12` steps from `[0,0]`: 
-		-  it goes to a _very spooky_ __four__ steps of _spookiness_.
-		-  it goes to a _somewhat fresh_ __twelve__ steps of _freshness_.
-	- While ![cute][cute] and ![salt][salt] still stay at __zero__  _spookiness_,
-		- ![cute][cute] `vector [0,3]`  _(from 2003)_ only goes to __three__ steps of  _freshness_.
-		- ![salt][salt] `vector [0,17]` _(from 2017)_ goes to __seventeen__ steps of _freshness_.
 
-__Which memes are the freshest:__
+But really, A _vector_ is a just a __list of numbers__.
 
-To know anything about _freshness_, one item in your _input list_ must be a number for freshness. It's not needed to think of an `input vector` as offsetting an input in a space, but that's where the language of _vectors_ and _dimensions_ originates. __In general__, you need to list one item in the __input list__ for each feature like _spookiness_, _freshness_, or even _spiciness_.
-- Notice that there is no difference between ![cute][cute] and ![salt][salt] if your inputs only list steps towards _spookiness_. Neither of those memes is spooky at all! 
-- In _spooky-fresh_ space, our inputs are `[0,3]` for ![cute][cute] and `[0,17]` for ![salt][salt],
-	-  so an artificial neural network can learn that that ![salt][salt] is _much fresher_ than ![cute][cute].
+Each _input vector_ should just be called an _input list of numbers_, an _input list_, or simply a _list_. Each number in the _input list_ just describes an input. You add a _dimension_ just by adding one number to the _input list_. An _N-dimensional input vector_ is just __a list of N numbers__. 
+
+For the 1-dimensional __line__, the _input list_ has one number like `[0]`. For the 2-dimensional __square__, the _input list_ has two numbers like `[0,0]`. 
+
+ Here's a table of both _numbers_ and both _lists_ for each input in [the comic][1].
+
+| Icon | spooky | fresh | `[spooky]` | `[spooky, fresh]` |
+| ---- | ---------- | --------- | -------- | --------------- |
+| ![spooky][spooky] | 4 | 12 | `[4]` | `[4,12]` |
+| ![cute][cute] | 0 | 3 | `[0]` | `[0,3]` |
+| ![salt][salt] | 0 | 17 | `[0]` | `[0,17]` |
+
+
+The lists giving `[spooky]` will not answer questions about freshness. You need an _input list_ giving `[spooky,fresh]` to teach a network to find the _freshest_. To know anything about _freshness_, each _input list_ must have _a number for freshness_.
+
+- If each _input list_ has two numbers like this: `[spooky, fresh] = [0,0]`, 
+- And two of the _input lists_ are `[0,3]` for ![cute][cute] and `[0,17]` for ![salt][salt],
+	- Then a network can learn that ![salt][salt] is _much fresher_ than ![cute][cute].
+
+__In general__, you need to list one number in the _input list_ __for each thing you know__ about your data like _spookiness_, _freshness_, or even _spiciness_.
+
 
 [comic0]: http://img.hoff.in/learnest/png/learnest0.png
 [comic1]: http://img.hoff.in/learnest/png/dimensions.png
@@ -93,11 +98,11 @@ To know anything about _freshness_, one item in your _input list_ must be a numb
 
 In the [first panel][0], L'earnest describes his `3 dimensional input neuron vector`.
 
-From what we learned about vectors, the inputs are a list of steps in a 3d space (a cube). But there's no cube in the code. When running a network, a `3 dimensional vector` would just be a `list with three items` like this:
+From what we learned about vectors, the inputs are lists of 3 numbers that give all we know about each input. When running a network, a `3 dimensional vector` would just be a __list with three numbers__ like this:
 ```
 input = [1,2,3]
 ```
-If this is a `spooky-fresh-spicy` cube, the above input list could mean `spookiness=1`, `freshness=2`, and `spiciness=3`. 
+If these are `spooky-fresh-spicy` inputs, the above input list could mean `spookiness=1`, `freshness=2`, and `spiciness=3`. 
 
 Or, since the ![spooky][spooky] meme has `spookiness=4`, `freshness=12`, and `spiciness=0`,
 
@@ -111,7 +116,10 @@ __Helpful Translations:__
 
 - L'earnest would say:
 	- "I'm feeding in two 3-dimensional input neurons."
+- He should have said:
+	- "I'm feeding in two inputs of 3-number lists."
+
+- L'earnest would say:
 	- "I need another dimension to represent my input vector."
 - He should have said:
-	- "I'm feeding in two inputs of 3-item lists."
 	- "I need to list another number for each input."
