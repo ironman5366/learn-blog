@@ -62,7 +62,7 @@ A _vector_ is a _list of directions in a space_.
 		- twelve steps along the second edge.
 
 
-A _vector_ is a __list of numbers__.
+But really, A _vector_ is a just a __list of numbers__.
 
 Each _input vector_ should just be called an _input list of numbers_, an _input list_, or simply a _list_. Each number in the _input list_ just describes an input. You add a _dimension_ just by adding one number to the _input list_. An _N-dimensional input vector_ is just __a list of N numbers__. 
 
