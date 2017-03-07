@@ -98,11 +98,11 @@ __In general__, you need to list one number in the _input list_ __for each thing
 
 In the [first panel][0], L'earnest describes his `3 dimensional input neuron vector`.
 
-From what we learned about vectors, the inputs are lists of 3 numbers that give all we know about each input. When running a network, a `3 dimensional vector` would just be a `list with three numbers` like this:
+From what we learned about vectors, the inputs are lists of 3 numbers that give all we know about each input. When running a network, a `3 dimensional vector` would just be a __list with three numbers__ like this:
 ```
 input = [1,2,3]
 ```
-If this is a `spooky-fresh-spicy` cube, the above input list could mean `spookiness=1`, `freshness=2`, and `spiciness=3`. 
+If these are `spooky-fresh-spicy` inputs, the above input list could mean `spookiness=1`, `freshness=2`, and `spiciness=3`. 
 
 Or, since the ![spooky][spooky] meme has `spookiness=4`, `freshness=12`, and `spiciness=0`,
 
