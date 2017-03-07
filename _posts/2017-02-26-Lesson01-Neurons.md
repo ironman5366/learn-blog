@@ -45,7 +45,7 @@ $$
 
 Now let's look at the _dimensions_ of the inputs.
 
-In many entry-level machine learning tutorials, they usually don't explain what they mean by a  `N-dimensional vector space` (I'm looking at you, [tensorflow "beginner" tutorial](https://www.tensorflow.org/get_started/mnist/beginners)). It's simple. 
+In many entry-level machine learning tutorials, they usually don't explain what they mean by a  `N-dimensional vector space` (Looking at you, [tensorflow "beginner" tutorial](https://www.tensorflow.org/get_started/mnist/beginners)). It's simple. 
 
 As in the spooky-fresh comic above, think of a `vector space` as a shape. An `N-dimensional` vector space is just a __line__ for `N=1`, a __square__ for `N=2`, a _cube_ for `N=3`, or a _hypercube_ for `N>3`. It's best never to speak of _hypercubes_. Let's focus on __lines__ and __squares__.
 
@@ -62,9 +62,11 @@ A `vector` is a `list` _of directions in a space_.
 		- twelve steps along the second edge.
 
 
-__Examples from [the spooky-fresh comic][1]:__
+Now we'll just think of each _vector_ as a `feature list`. Each `feature` in the input list is anything that can describe an input. The number of _dimensions_ simply become the count of `features` you have for each input. For the __line__, the `feature list` has one item like `[0]`. For the __square__, the `feature list` has two items like `[0,0]`. 
 
-| Icon | spookiness | freshness | [spooky] | [spooky, fresh] |
+ Here's a table of each __feature__ and `feature list` for each input in [the comic][1].
+
+| Icon | spookiness | freshness | `[spooky]` | `[spooky, fresh]` |
 | ---- | ---------- | --------- | -------- | --------------- |
 | ![spooky][spooky] | 4 | 12 | `[4]` | `[4,12]` |
 | ![cute][cute] | 0 | 3 | `[0]` | `[0,3]` |
@@ -73,10 +75,11 @@ __Examples from [the spooky-fresh comic][1]:__
 
 __Which memes are the freshest:__
 
-To know anything about _freshness_, one item in your _input list_ must be a number for freshness. It's not needed to think of an `input vector` as offsetting an input in a space, but that's where the language of _vectors_ and _dimensions_ originates. __In general__, you need to list one item _(dimension)_ in the __input list__ for each feature like _spookiness_, _freshness_, or even _spiciness_.
-- Notice that there is no difference between ![cute][cute] and ![salt][salt] if your inputs only list _spookiness_. Neither of those memes is spooky at all! 
-- In _spooky-fresh_ space, our inputs are `[0,3]` for ![cute][cute] and `[0,17]` for ![salt][salt],
-	-  so an artificial neural network can learn that that ![salt][salt] is _much fresher_ than ![cute][cute].
+To know anything about _freshness_, each _input list_ must have __an item for freshness__. It's not needed to think of an `input vector` as offsetting an input in a space, but that's where the language of _vectors_ and _dimensions_ originates. __In general__, you need to list one `feature` _(dimension)_ in the __input list__ for each `feature` like _spookiness_, _freshness_, or even _spiciness_.
+- ![cute][cute] and ![salt][salt] seem the same if your _input list_ has only _spookiness_.
+- If our _input list_ has _spookiness and freshness_, 
+	-  Each _input list_ looks like (`[0,3]` for ![cute][cute] and `[0,17]` for ![salt][salt])
+	-  Your network can learn that that ![salt][salt] is _much fresher_ than ![cute][cute].
 
 [comic0]: http://img.hoff.in/learnest/png/learnest0.png
 [comic1]: http://img.hoff.in/learnest/png/dimensions.png
