@@ -77,12 +77,14 @@ For the 1-dimensional __line__, the _input list_ has one number like `[0]`. For 
 | ![salt][salt] | 0 | 17 | `[0]` | `[0,17]` |
 
 
-__Which memes are the freshest:__
+The lists giving `[spooky]` will not answer questions about freshness. You need an _input list_ givin `[spooky,fresh]` to teach a network to find the _freshest_. To know anything about _freshness_, each _input list_ must have _a number for freshness_.
 
-To know anything about _freshness_, each _input list_ must have _a number for freshness_. __In general__, you need to list one number in the _input list_ __for each thing you know__ about your data like _spookiness_, _freshness_, or even _spiciness_.
 - If each _input list_ has two numbers like this: `[spooky, fresh] = [0,0]`, 
 - And two of the _input lists_ are `[0,3]` for ![cute][cute] and `[0,17]` for ![salt][salt],
 	- Then a network can learn that ![salt][salt] is _much fresher_ than ![cute][cute].
+
+__In general__, you need to list one number in the _input list_ __for each thing you know__ about your data like _spookiness_, _freshness_, or even _spiciness_.
+
 
 [comic0]: http://img.hoff.in/learnest/png/learnest0.png
 [comic1]: http://img.hoff.in/learnest/png/dimensions.png
