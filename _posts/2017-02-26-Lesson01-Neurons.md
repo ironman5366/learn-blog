@@ -77,7 +77,7 @@ For the 1-dimensional __line__, the _input list_ has one number like `[0]`. For 
 | ![salt][salt] | 0 | 17 | `[0]` | `[0,17]` |
 
 
-The lists giving `[spooky]` will not answer questions about freshness. You need an _input list_ givin `[spooky,fresh]` to teach a network to find the _freshest_. To know anything about _freshness_, each _input list_ must have _a number for freshness_.
+The lists giving `[spooky]` will not answer questions about freshness. You need an _input list_ giving `[spooky,fresh]` to teach a network to find the _freshest_. To know anything about _freshness_, each _input list_ must have _a number for freshness_.
 
 - If each _input list_ has two numbers like this: `[spooky, fresh] = [0,0]`, 
 - And two of the _input lists_ are `[0,3]` for ![cute][cute] and `[0,17]` for ![salt][salt],
