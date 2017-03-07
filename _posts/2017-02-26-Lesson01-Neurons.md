@@ -70,7 +70,7 @@ For the 1-dimensional __line__, the _input list_ has one number like `[0]`. For 
 
  Here's a table of both _numbers_ and both _lists_ for each input in [the comic][1].
 
-| Icon | spookiness | freshness | `[spooky]` | `[spooky, fresh]` |
+| Icon | spooky | fresh | `[spooky]` | `[spooky, fresh]` |
 | ---- | ---------- | --------- | -------- | --------------- |
 | ![spooky][spooky] | 4 | 12 | `[4]` | `[4,12]` |
 | ![cute][cute] | 0 | 3 | `[0]` | `[0,3]` |
