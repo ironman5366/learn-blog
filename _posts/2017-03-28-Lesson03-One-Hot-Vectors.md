@@ -32,8 +32,8 @@ That would leave us with something like this:
 
 |Picture|Output|
 |---------------------------------------------------------|---|
-|![](https://ironmn5366.github.io/learn-blog/_assets/happylinus.jpg)|`0`|
-|![](https://ironmn5366.github.io/learn-blog/_assets/angrylinus.png)|`1`|
+|![](images/happylinus.jpg)|`0`|
+|![](images/angrylinus.png)|`1`|
 
 Simple enough, right?
 
@@ -45,7 +45,7 @@ But what if Linus gets another emotion? That leads us into the main use case for
 
 Let's say one day, when doing my daily Linus image search, I find a new emotion.
 
-![](https://ironmn5366.github.io/learn-blog/_assets/excitedlinus.jpg)
+![](images/excitedlinus.jpg)
 
 Like any self respecting Linux fan, I take my library of Linus Torvalds pictures incredibly seriously.
 I knew this would make a fine addition to my collection, but it didn't fit in either of my existing categories.
@@ -68,9 +68,9 @@ Let's take a look
 
 |Picture|Happy|Angry|Excited|
 |-------|-----|-----|-------|
-|![]((https://ironmn5366.github.io/learn-blog/_assets/happylinus.jpg)|`1`|`0`|`0`|
-|![](https://ironmn5366.github.io/learn-blog/_assets/angrylinus.png)|`0`|`1`|`0`|
-|![](https://ironmn5366.github.io/learn-blog/_assets/excitedlinus.jpg)|`0`|`0`|`1`|
+|![]((images/happylinus.jpg)|`1`|`0`|`0`|
+|![](images/angrylinus.png)|`0`|`1`|`0`|
+|![](images/excitedlinus.jpg)|`0`|`0`|`1`|
 
 And there we go!
 
