@@ -68,7 +68,7 @@ Let's take a look
 
 |Picture|Happy|Angry|Excited|
 |-------|-----|-----|-------|
-|![]((https://ironmn5366.github.io/learn-blog/_assets/happylinus.jpg)|`1`|`0`|`0`|
+|![](https://ironmn5366.github.io/learn-blog/_assets/happylinus.jpg)|`1`|`0`|`0`|
 |![](https://ironmn5366.github.io/learn-blog/_assets/angrylinus.png)|`0`|`1`|`0`|
 |![](https://ironmn5366.github.io/learn-blog/_assets/excitedlinus.jpg)|`0`|`0`|`1`|
 
