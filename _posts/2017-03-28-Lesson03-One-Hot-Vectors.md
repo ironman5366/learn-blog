@@ -16,11 +16,11 @@ For example, say I want to sort my library of Linus Torvalds pictures.
 I have two types of pictures.
 
 Happy Linus:
-![](https://ironmn5366.github.io/learn-blog/_assets/happylinus.jpg)
+![](images/happylinus.jpg)
 
 And angry Linus:
 
-![](https://ironmn5366.github.io/learn-blog/_assets/angrylinus.png)
+![](images/angrylinus.png)
 
 Easy enough, right?
 
@@ -68,9 +68,10 @@ Let's take a look
 
 |Picture|Happy|Angry|Excited|
 |-------|-----|-----|-------|
-|![]((images/happylinus.jpg)|`1`|`0`|`0`|
+|![](images/happylinus.jpg)|`1`|`0`|`0`|
 |![](images/angrylinus.png)|`0`|`1`|`0`|
 |![](images/excitedlinus.jpg)|`0`|`0`|`1`|
+
 
 And there we go!
 
