@@ -16,11 +16,11 @@ For example, say I want to sort my library of Linus Torvalds pictures.
 I have two types of pictures.
 
 Happy Linus:
-![](images/happylinus.jpg)
+![](https://raw.githubusercontent.com/ironman5366/learn-blog/master/_posts/images/happylinus.jpg)
 
 And angry Linus:
 
-![](images/angrylinus.png)
+![](https://raw.githubusercontent.com/ironman5366/learn-blog/master/_posts/images/angrylinus.png)
 
 Easy enough, right?
 
@@ -32,8 +32,8 @@ That would leave us with something like this:
 
 |Picture|Output|
 |---------------------------------------------------------|---|
-|![](images/happylinus.jpg)|`0`|
-|![](images/angrylinus.png)|`1`|
+|![](https://raw.githubusercontent.com/ironman5366/learn-blog/master/_posts/images/happylinus.jpg)|`0`|
+|![](https://raw.githubusercontent.com/ironman5366/learn-blog/master/_posts/images/angrylinus.png)|`1`|
 
 Simple enough, right?
 
@@ -45,7 +45,7 @@ But what if Linus gets another emotion? That leads us into the main use case for
 
 Let's say one day, when doing my daily Linus image search, I find a new emotion.
 
-![](images/excitedlinus.jpg)
+![](https://raw.githubusercontent.com/ironman5366/learn-blog/master/_posts/images/excitedlinus.jpg)
 
 Like any self respecting Linux fan, I take my library of Linus Torvalds pictures incredibly seriously.
 I knew this would make a fine addition to my collection, but it didn't fit in either of my existing categories.
@@ -68,9 +68,9 @@ Let's take a look
 
 |Picture|Happy|Angry|Excited|
 |-------|-----|-----|-------|
-|![](images/happylinus.jpg)|`1`|`0`|`0`|
-|![](images/angrylinus.png)|`0`|`1`|`0`|
-|![](images/excitedlinus.jpg)|`0`|`0`|`1`|
+|![](https://raw.githubusercontent.com/ironman5366/learn-blog/master/_posts/images/happylinus.jpg)|`1`|`0`|`0`|
+|![](https://raw.githubusercontent.com/ironman5366/learn-blog/master/_posts/images/angrylinus.png)|`0`|`1`|`0`|
+|![](https://raw.githubusercontent.com/ironman5366/learn-blog/master/_posts/images/excitedlinus.jpg)|`0`|`0`|`1`|
 
 
 And there we go!
