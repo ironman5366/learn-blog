@@ -32,7 +32,7 @@ That would leave us with something like this:
 
 |Picture|Output|
 |---------------------------------------------------------|---|
-|![]((https://ironmn5366.github.io/learn-blog/_assets/happylinus.jpg)|`0`|
+|![](https://ironmn5366.github.io/learn-blog/_assets/happylinus.jpg)|`0`|
 |![](https://ironmn5366.github.io/learn-blog/_assets/angrylinus.png)|`1`|
 
 Simple enough, right?
